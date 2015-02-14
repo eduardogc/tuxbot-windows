@@ -1,9 +1,0 @@
-/home/eduardo/idea-IC-139.659.2/bin/./idea.sh &calc:gnome-calculator &
-firefox:firefox &
-eclipse:$HOME/eclipse/./eclipse &
-sublimetext://usr/bin/subl &
-intellijidea:$HOME/idea-IC-139.659.2/bin &
-vlc:vlc &
-atom://usr/bin/atom &
-skype:skype &
-systemmonitor:gnome-system-monitor &
