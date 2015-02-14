@@ -1,0 +1,2 @@
+﻿Installation made sucessfully.
+Please restart your command prompt in order to execute TuxBot.

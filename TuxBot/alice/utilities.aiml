@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>START DAY</pattern>
+    <template>
+      <random>
+        <li>START_DAY Ok, starting to count time of activities...</li>
+        <li>START_DAY On your marks... go!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FINISH DAY</pattern>
+    <template>
+      <random>
+        <li>FINISH_DAY Ok, time stopped.</li>
+        <li>FINISH_DAY Ok, finished here.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>START LUNCH</pattern>
+    <template>
+      <random>
+        <li>START_LUNCH Hm... I got hungry now. No, wait, I'm a robot.</li>
+        <li>START_LUNCH Hm... have my silicon pasta now. Bonnapettit.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>STOP LUNCH</pattern>
+    <template>
+      <random>
+        <li>STOP_LUNCH Get back to work!</li>
+        <li>STOP_LUNCH Started the countdown! Gogogo!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FINISH LUNCH</pattern>
+    <template>
+      <random>
+        <li>STOP_LUNCH Get back to work!</li>
+        <li>STOP_LUNCH Started the countdown! Gogogo!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CHECK LUNCH LEFT</pattern>
+    <template>
+      LUNCH STATUS
+    </template>
+  </category>
+
+  <category>
+    <pattern>VIEW * CSV *</pattern>
+    <template>VIEW CSV</template>
+  </category>
+
+  <category>
+    <pattern>CALCULATE *</pattern>
+    <template>CALC
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CALC *</pattern>
+    <template>CALC
+      <star/></template>
+  </category>
+
+  <category>
+    <pattern>SEARCH ON WEB FOR *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEARCH WEB FOR *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WEB SEARCH *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEARCH ON GOOGLE FOR *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEARCH GOOGLE FOR *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOGLE SEARCH FOR *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOGLE *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOGLE FOR *</pattern>
+    <template>GOOGLE SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEARCH ON BING FOR *</pattern>
+    <template>BING SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEARCH BING FOR *</pattern>
+    <template>BING SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BING SEARCH FOR *</pattern>
+    <template>BING SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BING *</pattern>
+    <template>BING SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BING FOR *</pattern>
+    <template>BING SEARCH
+      <star/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CPU ERROR</pattern>
+    <template>
+      <random>
+        <li>My sensors indicate that my CPU is burning. It's higher than 95%!</li>
+        <li>Slow down! CPU is higher than 95%!</li>
+        <li>I'm feeling tired... oh, it's the CPU higher than 95%.</li>
+        <li>Oh, I think I had to advise you that CPU is higher than 95%.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MEMORY ERROR</pattern>
+    <template>
+      <random>
+        <li>I'm feeling squeezed here. Your used RAM memory is higher than 90%!</li>
+        <li>More than 90% of ram used... closing some applications would be good.</li>
+        <li>Call the swap! The used memory is higher than 90%!</li>
+        <li>My sensors indicate that the memory is higher than 90%.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* CPU STATUS</pattern>
+    <template>
+      CPU STATUS
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MEMORY STATUS</pattern>
+    <template>
+      MEMORY STATUS
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SWAP STATUS</pattern>
+    <template>
+      SWAP STATUS
+    </template>
+  </category>
+
+  <category>
+    <pattern>* CPU AND MEMORY STATUS</pattern>
+    <template>
+      CPU MEMORY STATUS
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MEMORY AND CPU STATUS</pattern>
+    <template>
+      CPU MEMORY STATUS
+    </template>
+  </category>
+
+</aiml>

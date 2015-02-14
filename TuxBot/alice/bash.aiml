@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>LS</pattern>
+    <template>BASH ls</template>
+  </category>
+
+  <category>
+    <pattern>SEARCH * IN *</pattern>
+    <template>BASH grep -rn <star index="1"/>  <star index="2" /> </template>
+  </category>
+
+  <category>
+    <pattern>EDIT PATH</pattern>
+    <template>EDIT PATH</template>
+  </category>
+
+  <category>
+    <pattern>EDIT PATHS</pattern>
+    <template>EDIT PATH</template>
+  </category>
+
+  <category>
+    <pattern>EDIT DIRECTORY PATHS</pattern>
+    <template>EDIT PATH</template>
+  </category>
+
+  <category>
+    <pattern>EDIT DIRECTORY PATH</pattern>
+    <template>EDIT PATH</template>
+  </category>
+</aiml>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>OPEN INTELLIJ</pattern>
+    <template>OPEN intellijidea</template>
+  </category>
+
+  <category>
+    <pattern>OPEN CALCULATOR</pattern>
+    <template>OPEN calc</template>
+  </category>
+
+  <category>
+    <pattern>OPEN CSV</pattern>
+    <template>VIEW CSV</template>
+  </category>
+
+  <category>
+    <pattern>OPEN *</pattern>
+    <template>OPEN <star/></template>
+  </category>
+
+</aiml>
