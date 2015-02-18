@@ -19,6 +19,8 @@ If your Windows version is not English-US, you'll also need to change your text-
 
 Put TuxBot anywhere you want and run installation-windows.bat in cmd as administrator.
 
+run the bot with **python chatbot.py**
+
 ## TODO and future work
 
 This version is the most stable version for Windows at the moment, but it is still on development, and you certain find
